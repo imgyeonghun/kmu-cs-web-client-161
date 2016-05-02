@@ -1,0 +1,1058 @@
+         
+            @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+            a:link {text-decoration: none; color: #000000;}
+            a:visited {text-decoration: underline; color: #000000 ;}
+            a:active {text-decoration: underline; color: #000000 ;}
+            a:hover {text-decoration: underline; color:#000000 ;}
+            
+            html, body{
+                font-family: 'Noto Sans KR', sans-serif;
+                margin: 0;
+            }
+            
+
+  /*상단메뉴바 시작*/
+            
+            
+            
+            .top-box{
+           border:0px solid black; 
+ padding-bottom:  9px;
+                       padding-top: 10px;
+                   margin-top: 0px;
+          width : 100%;
+        position: fixed;
+                       top:0px;
+      background:rgba(255,255,255, 0.94 );
+                   
+                        box-shadow: 0px 1px 20px #999999;
+
+            } 
+            
+            
+              
+              .top{
+           border:0px solid black; 
+     margin: 0px auto;
+      padding: 1px;
+         max-width : 1400px;
+                display: flex;
+                   justify-content:space-around;
+
+
+                     
+            }
+
+
+        
+        .logo{
+           width : 350px;   border:0px solid red; 
+                 float: left;
+                   display: block;
+              position:static;
+            }
+            
+            
+            .menu{
+           border:0px solid red; 
+                 width : 330px;
+            float: right;
+          padding-top: 20px;
+                   display: inline;
+                   position:static;
+                
+                
+            }  
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding:0;
+                 
+ }
+
+ li {
+      padding-left: 11px;
+   display: inline;
+ }
+   
+            
+            
+     /*상단메뉴바 끝*/     
+    
+    /*메인홈 시작*/    
+            
+
+.maincontents-box{
+           border:0px solid red; 
+                 padding-top: 90px;
+         
+     padding-bottom: 0px;
+ background: #8A2BE2;
+                
+                  overflow: hidden;
+                  padding-bottom: 0px;
+                  margin-bottom: 0px;
+             box-shadow: 0px 10px 20px #000000;
+         
+ }
+            
+ 
+           .maincontents{
+           border:0px solid white; 
+     margin: 0px auto;
+                padding-top: 30px;
+                
+          max-width : 1000px;
+                    
+                      padding-bottom: 0px;
+                  margin-bottom: 0px;
+             
+              
+            }
+                    
+            
+ .text1{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 16px;
+                  margin-bottom: 0px;
+            font-weight: 100;
+         
+                  line-height: 20px;
+                color: #fff;
+                   font-family: 'Helvetica', sans-serif;
+ }     
+
+
+   .accordionBox{
+             background:rgba(0,0,0, 0.7);
+                width: 50%;
+                padding: 5px;
+                margin:10px auto;
+        border-radius: 21px;
+                
+ }
+
+            details{
+              
+                color: white;
+                  text-align: center;
+                     font-size: 13px;
+            }
+
+
+    summary{
+                cursor:context-menu;
+  outline:none;
+             text-align: center;
+    color: white;
+                font-size: 13px;
+                 
+                
+}
+            
+            summary:hover{
+                
+               text-decoration: underline; color: white;
+                
+            }
+
+
+
+                    .img1{
+   display: block;
+               
+            }
+             
+            
+
+ /*메인홈 끝*/ 
+              
+ /*타임라인 시작*/ 
+
+
+      .contents-box{
+           border:0px solid red; 
+           padding-top: 90px;
+
+                
+                  overflow: hidden;
+                  padding-bottom: 0px;
+                  margin-bottom: 0px;
+                
+            }
+            
+            
+                 .contents{
+           border:0px solid white; 
+     margin: 0px auto;
+          
+                
+          max-width : 1000px;
+                    
+                      padding: 50px;
+           
+              
+            }
+            
+
+
+      .time1980{
+                         border:0px solid green; 
+   display: block;
+ margin: 0 auto;
+                        max-width: 500px;
+               
+            }
+
+
+
+ .timelineTitle{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 30px;
+                  margin-bottom: 0px;
+            font-weight: bold;
+         
+                  line-height: 30px;
+                color: #fff;
+                 
+                 
+              
+            }
+
+
+
+
+
+      .timelineimg{
+                         border:0px solid green; 
+   display: block;
+ margin: 0 auto;
+                     width: 100%;
+               
+            }
+
+
+                  .gamenwatchtitle{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 20px;
+                  margin-bottom: 0px;
+            font-weight: bold;
+         
+                  line-height: 20px;
+                color: #fff;
+                 
+                 
+              
+            }
+            
+
+     .gamenwatch-box{
+                text-align: center;
+                background:rgba(0,0,0, 0.7);
+                padding: 10px;
+                display: flex;
+            align-items:center;
+        width: 80%;
+                       margin: 10px auto;
+                          border-radius: 10px;
+            }
+
+
+
+  .gamenwatch-text{
+
+               border:0px solid green; 
+        text-align: left;
+                        margin: 0 auto;
+            font-size: 15px;
+                 
+                    
+            
+         max-width: 700px;
+                  line-height: 20px;
+                color: #fff;
+                 
+                 
+              
+            }
+
+
+      .img2{
+                         border:0px solid green; 
+   display: block;
+ margin: 0 auto;
+                     width: 100%;
+               
+            }
+
+
+          table, td, th {
+      border: 0px solid black;
+                      border-collapse: collapse;
+       margin: 0;
+    }
+
+table {
+ position:static;
+      width: 100%;
+   
+
+    }   
+
+    th {
+       
+         }
+
+td {
+     text-align: center; 
+    
+    }
+
+            
+            
+
+               .thlr {
+                          width:45%;
+         }
+
+
+.thcenter{
+                
+                width:10%;
+                
+            background-image:url(lin.png);
+        background-position: center;
+                background-repeat: repeat-y;
+            }
+
+
+  /*타임라인 시작*/ 
+/*이외의 컨트롤러들 시작*/ 
+
+      .othertitle{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 20px;
+                  margin-bottom: 0px;
+                    margin-top: 150px;
+            font-weight: bold;
+         
+                  line-height: 20px;
+                color: #fff;
+                 
+                 
+              
+            }
+
+
+ .other1{
+                    border:0px solid black; 
+               width: 100%;
+            
+                margin-top: 10px;
+                text-align: center;
+                display:block;
+               
+                padding: 0 auto;
+               
+            
+                     
+            }
+             .otherimg{
+                 text-align: center;
+                border:0px solid black;
+                   width: 100%;
+                 margin: 0 auto;
+                 margin-top: 20px;
+                       display: block;
+                 
+            }
+               .otherbox{
+              
+                border:0px solid black;
+                   width: 47%;
+                 margin: 20px auto;
+              padding: 0px 0px 10px 00px;
+                  display: inline-block;
+                    background:rgba(0,0,0, 0.8 );
+                    box-shadow:  0px 3px 5px #222222;
+                     border-radius: 21px;
+            }
+            
+             .othersbox{
+              
+                border:0px solid black;
+                   max-width: 1000px;
+                 margin: 20px auto;
+              
+                  display:flex;
+                    
+            
+            }
+            
+
+/*이외의 컨트롤러들 끝*/ 
+            
+/*컨트롤러 철학 시작*/ 
+
+.philotitle{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 40px;
+                  margin-bottom: 50px;
+            font-weight: bold;
+         padding-top: 500px;
+                  line-height: 50px;
+                color: #fff;
+                 text-shadow:  0px 2px 5px #000000;
+                 
+              
+            } 
+
+   
+                .philo-box{
+           border:0px solid black; 
+        margin-top: 10px;
+
+ 
+                  overflow: hidden;
+             
+                  background:rgba(0,0,0, 0.60 );
+            }
+            
+                     .philo-text{
+         padding: 50px;
+                         margin-bottom: 150px;
+            }
+            
+            
+ .textp{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 17px;
+     margin: 0 auto;
+                  margin-bottom: 0px;
+            font-weight: bold;
+     padding: 0px;
+         max-width: 840px;
+                  line-height: 30px;
+                color: #fff;
+                 
+                 text-shadow:  0px 2px 5px #000000;
+              
+            }
+            
+
+ .contents3-1{
+               background:rgba(255,200,6, 0.7); 
+                padding: 30px;
+                width: 400px;
+                margin: 0 auto;
+             margin-bottom: 100px;
+            box-shadow: 0px 1px 10px #999900;
+       border-radius: 10px;
+
+            }
+
+
+/*컨트롤러 철학 끝*/ 
+/*요코이 군페이 배경 시작*/ 
+
+    .contents-box2{
+           border:0px solid black; 
+        
+
+                position: fixed;
+                 z-index: -30;
+                 height: 100%;
+                 width:100%;
+                 top:0;
+                 right: 0;
+             background-image: url(rnsvpdl.png);
+                 background-size:cover;
+                background-repeat: no-repeat;
+            }
+            
+            
+                 .contents2{
+           border:0px solid white; 
+   
+          
+                
+       
+                   
+                      padding: 0px;
+           
+              
+            }
+
+
+/*요코이 군페이 배경 끝*/ 
+/*more 시작*/ 
+
+
+
+
+.more-box{
+           border:0px solid red; 
+                 padding-top: 90px;
+         
+     padding-bottom: 0px;
+ background: #8A2BE2;
+                
+                  overflow: hidden;
+                  padding-bottom: 0px;
+                  margin-bottom: 0px;
+             box-shadow: 0px 10px 20px #000000;
+         
+ }
+
+
+.morecontents{
+           border:0px solid white; 
+     margin: 0px auto;
+                padding-top: 30px;
+                
+          max-width : 1000px;
+                    
+                      padding-bottom: 0px;
+                  margin-bottom: 0px;
+ }
+
+
+            
+            .textmore{
+                
+             
+                text-align: left;
+               
+                   border:0px solid green; 
+        text-align: center;
+            font-size: 76px;
+                  margin-bottom: 0px;
+            font-weight: 100;
+         
+        
+   color: white;
+                
+            }
+
+
+
+
+            
+            
+ .moresub{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 16px;
+                  margin-bottom: 0px;
+            font-weight: 100;
+         
+                  line-height: 20px;
+                color: #fff;
+                   font-family: 'Helvetica', sans-serif;
+ }     
+
+
+
+              .textms{
+          
+               border:0px solid green; 
+        text-align: left;
+            font-size: 18px;
+                  margin: 10px;
+            font-weight:bold;
+         
+                  line-height: 20px;
+                color:white;
+                 margin-top: 100px;
+                 
+              
+            }
+                
+
+  .videobox{
+                text-align: center;
+                background:rgba(0,0,0, 0.7);
+                padding: 10px;
+                display: flex;
+            align-items:center;
+                margin-bottom: 100px;
+                    border-radius: 10px;
+            }
+            
+           
+          
+         
+              
+            
+             .video2{
+                text-align: center;
+         margin: 10px;
+             width: 500px;
+                display: inline-block;
+     
+            }
+            
+            
+
+
+
+
+                .origin{
+                text-align: center;
+                background:rgba(0,0,0, 0.7);
+                padding: 10px;
+                display: flex;
+            align-items:center;
+                margin-bottom: 100px;
+                    border-radius: 10px;
+     
+            }
+
+
+            .ori{
+                text-align: left;
+                color: whitesmoke;
+                font-size: 12px;
+                
+                
+            }
+          
+            
+            
+            
+            .contents3-1text{
+                
+                font-size: 13px;
+                text-align: left;
+            }
+            
+        
+         
+            
+         
+            
+                   /*more 끝*/ 
+     
+ /*바텀 시작*/ 
+            
+ 
+            
+            
+            
+             
+            
+            
+
+                    .bottom-box{
+           border:0px solid red; 
+           padding:20px;
+
+                
+                 
+            display: block;
+              margin: 0;
+                
+            }
+            
+                          .bottom-text{
+           border:0px solid red; 
+          text-align: center;
+color: white;
+                padding: 20px;
+             font-size: 12px;
+                
+            }
+            
+            
+        /*바텀 끝*/ 
+       
+
+         
+            
+           
+            
+            
+            
+
+
+
+
+/*-----------------------미디어 쿼리-----------------------*/
+
+
+ @media (max-width: 750px) {
+                
+                
+                              .top-box{
+           border:0px solid black; 
+ padding-bottom:  9px;
+                       padding-top: 10px;
+                   margin-top: 0px;
+          width : 100%;
+        position: fixed;
+                       top:0px;
+      background:rgba(255,255,255, 0.94 );
+                   
+
+            } 
+            
+            
+              
+              .top{
+           border:0px solid black; 
+     margin: 0px auto;
+      padding: 1px;
+        width : 100%;
+         position: static;  
+                  display: flex;
+       align-items: center;
+                  
+            }
+            
+        .logo{
+             border:0px solid red; 
+            margin: 0px auto;
+                width: 250px;
+           
+            display: block;
+         
+            }
+            
+            
+            .menu{
+           border:0px solid red; 
+                 width : 110px;
+            float:right;
+          padding-top: 0px;
+                padding-right: 20px;
+                display: inline;
+                   font-size:11px;
+            }  
+                
+                
+      ul {
+   list-style-type: none;
+   margin: 0;
+   padding:0;
+     float: right;
+                 
+ }
+
+ li {
+      padding-left: 11px;
+   display:block;
+    
+ }
+     
+         .accordionBox{
+             background:rgba(0,0,0, 0.7);
+                width: 80%;
+                padding: 5px;
+                margin:10px auto;
+        border-radius: 21px;
+                
+            }
+            
+      
+     
+     
+       .gamenwatchtitle{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 14.5px;
+                  margin-bottom: 0px;
+            font-weight:bold;
+         
+                  line-height: 20px;
+                color: #fff;
+                 
+                 
+              
+            }
+     
+     
+       
+     .gamenwatch-box{
+                text-align: center;
+                background:rgba(0,0,0, 0.7);
+                padding: 10px;
+                display: flex;
+            align-items:center;
+        width: 95%;
+                       margin: 10px auto;
+                          border-radius: 10px;
+            }
+
+                
+                 .gamenwatch-text{
+          
+               border:0px solid green; 
+        text-align: left;
+            font-size: 14px;
+                  margin-bottom: 0px;
+          
+         
+                  line-height: 20px;
+                color: #fff;
+                 
+                 
+              
+            }
+                
+     
+      .thlr {
+                          width:50%;
+         }
+     
+          
+                  .thcenter{
+                
+                width:0px;
+            }
+                
+                
+     
+                .othersbox{
+              
+                border:0px solid black;
+                   max-width: 1000px;
+                 margin: 20px auto;
+              
+                              display:block;}
+                    
+               .otherbox{
+              
+                border:0px solid black;
+                   width: 90%;
+                 margin: 20px auto;
+              padding: 10px 0px 20px 00px;
+                  display: block;
+               
+                   box-shadow:  0px 3px 5px #222222;
+                     border-radius: 21px;
+            }
+            
+            
+     
+     
+            
+                    .philotitle{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 25px;
+                  margin-bottom: 50px;
+                        
+            font-weight: bold;
+         padding-top: 500px;
+                  line-height: 50px;
+                color: #fff;
+                 
+                 
+                text-shadow:  0px 2px 5px #000000;
+            } 
+     
+     
+     
+     
+      .textp{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 16px;
+                  
+            font-weight: bold;
+         width: 100%;
+                  line-height: 20px;
+                color: #fff;
+                 
+                 
+              
+            }
+                
+                
+     
+     
+          
+            
+                      .contents3-1{
+            background:rgba(255,200,6, 0.7); 
+                padding: 30px;
+                width: 60%;
+                margin: 20px auto;
+             margin-bottom: 100px;
+                  box-shadow: 0px 1px 10px #999900;
+                            border-radius: 10px;
+
+            } 
+     
+     
+     
+     
+     
+         .contents-box2{
+           border:0px solid black; 
+        
+
+                position: fixed;
+                 z-index: -30;
+                 height: 100%;
+                 width:100%;
+                 top:0;
+                 right: 0;
+             background-image: url(rnsvpdlmini.png);
+                 background-size:cover;
+              
+            }
+            
+     
+     
+     
+         .textms{
+          
+               border:0px solid green; 
+        text-align:center;
+            font-size: 18px;
+                  margin-top: 50px;
+            font-weight:bold;
+         
+                  line-height: 20px;
+                color:white;
+                 
+                 
+              
+            }
+     
+               
+     .more-box{
+           border:0px solid red; 
+                 padding-top: 30px;
+         
+     padding-bottom: 0px;
+ background: #8A2BE2;
+                
+                  overflow: hidden;
+                  padding-bottom: 0px;
+                  margin-bottom: 0px;
+             box-shadow: 0px 10px 20px #000000;
+         
+ }
+                      
+            .textmore{
+                
+             
+                text-align: left;
+               
+             
+                
+                   border:0px solid green; 
+        text-align: center;
+            font-size: 50px;
+                  margin-bottom: 0px;
+            font-weight: 100;
+         
+        
+   color: white;
+                
+            }
+
+
+
+
+            
+            
+ .moresub{
+          
+               border:0px solid green; 
+        text-align: center;
+            font-size: 16px;
+                  margin-bottom: 80px;
+            font-weight: 100;
+         
+                  line-height: 20px;
+                color: #fff;
+                   font-family: 'Helvetica', sans-serif;
+ }     
+             
+     
+     
+     
+     
+     
+     
+     
+                
+                 .videobox{
+                text-align: center;
+                background:rgba(0,0,0, 0.5);
+             padding: 10px;
+                display: block;
+                     width: 90%;
+                     margin: 0 auto;
+             border-radius: 5px;
+           
+            }
+     
+     .video2{
+                text-align: center;
+         margin: 0px;
+             width: 100%;
+                  
+                display: block;
+     
+            }
+                
+                
+                
+                .origin{   text-align: center;
+                background:rgba(0,0,0, 0.5);
+             padding: 10px;
+                display: block;
+                     width: 90%;
+                     margin: 0 auto;
+                    margin-bottom: 30px;
+             border-radius: 5px;}
+            
+                  .ori{
+                text-align: left;
+                color: whitesmoke;
+                font-size: 10px;
+                
+                
+            }
+          
+            
+               
+         
+           
+                          .bottom-text{
+           border:0px solid red; 
+          text-align: center;
+color: white;
+                padding: 10px;
+            font-size: 12px;
+                
+                
+                
+           
+            }    
+            
+            
+        
+          
