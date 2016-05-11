@@ -9,7 +9,11 @@ return parseInt(input);
 //문제3
 function maskNumber(input){
 var mask_number="";
-mask_number="*******"+input.substring(7,input.length);
+mask_number=input.substring(0,7);
+for(var i=0; i < input.length-7; i++){
+    
+  mask_number+="*"  
+}
 return mask_number;
 }
 
@@ -39,12 +43,10 @@ function operation(input1,input2,input3){
 
     switch(input1){
             
-        case "sum": 
+        case "add": 
 		return input2 + input3;
 		break;   
-            
-    //문제에는 sum인데 answer_check.js에는 add여서 체크파일을 수정했습니다.        
-            
+
         case "substract":
 		return input2 - input3;
 		break;   

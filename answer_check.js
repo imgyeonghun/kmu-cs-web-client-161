@@ -8,7 +8,7 @@ console.log("Q4: average of input [" + input + "] is " + getAverage(input));
 console.log("Q5: 5 is multiple of 7: " + isMultipleSeven(5));
 console.log("Q5: 21 is multiple of 7: " + isMultipleSeven(21));
 console.log("Q5: 100 is multiple of 7: " + isMultipleSeven(100));
-console.log("Q6: a=24 and b=8. Add is: " + operation("sum", 24, 8));
+console.log("Q6: a=24 and b=8. Add is: " + operation("add", 24, 8));
 console.log("Q6: a=24 and b=8. Subtract is: " + operation("substract", 24, 8));
 console.log("Q6: a=24 and b=8. Multiply is: " + operation("multiply", 24, 8));
 console.log("Q6: a=24 and b=8. Divide is: " + operation("divide", 24, 8));
