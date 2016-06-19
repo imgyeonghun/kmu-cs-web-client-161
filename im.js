@@ -200,7 +200,7 @@ $("#otherbox4").animate({ opacity: 1},1000);
    $(".showmenu").hide(700);
  }else{
         $(".show").css( 'opacity', '1');
-         $(".show-box").css( 'z-index', '9000');
+         $(".show-box").css( 'z-index', '900000');
        $(".top-box").fadeOut(1000);
         
             $(".showmenu").show(700);
@@ -212,6 +212,7 @@ $("#otherbox4").animate({ opacity: 1},1000);
 
  $(".showmenu").click(function(){
      $(".top-box").fadeIn(1000);
+      $(".top-box").css( 'z-index', '900004');
       $(".showmenu").hide(700);
       $(".show-box").css( 'z-index', '90');
  });
